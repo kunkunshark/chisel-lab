@@ -13,6 +13,8 @@ class Delay extends Module {
   // below is dummy code to make this example compile
   res := io.din
 
+  // val delayReg = Reg(UInt(4.W))
+  // delayReg := delayIn
   // ***** your code ends here *****
 
   io.dout := res
