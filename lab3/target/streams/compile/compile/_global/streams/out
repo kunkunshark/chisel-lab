@@ -1,6 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3\src\main\scala\Accu.scala:17:23: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int(1)[0m
-[0m[[0m[31merror[0m] [0m[0m required: chisel3.UInt[0m
-[0m[[0m[31merror[0m] [0m[0m  when(io.setZero === 1) {[0m
-[0m[[0m[31merror[0m] [0m[0m                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[debug] Acquiring lock on file C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3\project\target\.sbt-compilation-infos\lab3-compile\.sbt-idea-lock ...
+[debug] Releasing lock on file C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3\project\target\.sbt-compilation-infos\lab3-compile\.sbt-idea-lock.
