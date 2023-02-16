@@ -1,63 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3205207f-49d9-49e3-934f-dd352e31ab41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab3/.bsp/sbt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__com_github_nscala_time_nscala_time_2_13_2_22_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__com_github_scopt_scopt_2_13_3_7_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__com_google_protobuf_protobuf_java_3_18_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__com_lihaoyi_geny_2_13_0_7_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__com_lihaoyi_os_lib_2_13_0_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__com_lihaoyi_utest_2_13_0_7_9_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__edu_berkeley_cs_chisel3_2_13_3_5_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__edu_berkeley_cs_chisel3_core_2_13_3_5_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__edu_berkeley_cs_chisel3_macros_2_13_3_5_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__edu_berkeley_cs_chiseltest_2_13_0_5_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__edu_berkeley_cs_firrtl_2_13_1_5_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__edu_berkeley_cs_treadle_2_13_1_5_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__io_github_alexarchambault_data_class_2_13_0_2_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__joda_time_joda_time_2_10_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__net_java_dev_jna_jna_5_10_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__net_jcazevedo_moultingyaml_2_13_0_4_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_9_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_11_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_apache_commons_commons_text_1_9_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_fusesource_jansi_jansi_1_11_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_joda_joda_convert_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_json4s_json4s_ast_2_13_3_6_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_json4s_json4s_core_2_13_3_6_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_json4s_json4s_native_2_13_3_6_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_json4s_json4s_scalap_2_13_3_6_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_portable_scala_portable_scala_reflect_2_13_0_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_scala_lang_modules_scala_jline_2_12_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_scala_lang_modules_scala_parallel_collections_2_13_1_0_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_1_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_1_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/sbt__org_yaml_snakeyaml_1_26_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/modules/lab3-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/modules/lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab3/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minimal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/src/main/scala/Delay.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/scala/Delay.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/streams/test/test/_global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/test/test/_global/streams/succeeded_tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/streams/test/testOnly/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/test/testOnly/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/test-reports/TEST-DelaySpec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/test-reports/TEST-DelaySpec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/test_run_dir/Delay_should_pass/Delay.lo.fir" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/test_run_dir/Delay_should_pass/Delay.lo.fir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +41,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676553436469</updated>
-      <workItem from="1676553437515" duration="241000" />
+      <workItem from="1676553437515" duration="926000" />
     </task>
     <servers />
   </component>
