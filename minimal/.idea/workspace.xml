@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3205207f-49d9-49e3-934f-dd352e31ab41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab3/src/main/scala/Delay.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/scala/Delay.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/test_run_dir/Accu_should_pass/Accu.lo.fir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/src/main/scala/Accu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/scala/Accu.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/scala-2.13/classes/Accu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/scala-2.13/classes/Accu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/scala-2.13/test-zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/scala-2.13/test-zinc/inc_compile_2.13.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/compile/compile/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/target/streams/test/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/test/compileIncremental/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/target/streams/test/test/_global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/test/test/_global/streams/succeeded_tests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab3/target/streams/test/testOnly/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/streams/test/testOnly/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/target/test-reports/TEST-DelaySpec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/target/test-reports/TEST-DelaySpec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/test_run_dir/Delay_should_pass/Delay.lo.fir" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/test_run_dir/Delay_should_pass/Delay.lo.fir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
