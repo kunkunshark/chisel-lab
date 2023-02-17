@@ -6,5 +6,13 @@ circuit Decoder :
     input io_sel : UInt<2>
     output io_out : UInt<4>
 
-    node dec = UInt<1>("h0") @[Decoder.scala 11:{24,24}]
-    io_out <= pad(dec, 4) @[Decoder.scala 17:10]
+    node _T = eq(UInt<1>("h0"), io_sel) @[Decoder.scala 15:18]
+    node _T_1 = eq(UInt<1>("h1"), io_sel) @[Decoder.scala 15:18]
+    node _T_2 = eq(UInt<2>("h2"), io_sel) @[Decoder.scala 15:18]
+    node _T_3 = eq(UInt<2>("h3"), io_sel) @[Decoder.scala 15:18]
+    node _GEN_0 = mux(_T_3, UInt<4>("h8"), UInt<1>("h0")) @[Decoder.scala 15:18 19:20 11:24]
+    node _GEN_1 = mux(_T_2, UInt<3>("h4"), _GEN_0) @[Decoder.scala 15:18 18:20]
+    node _GEN_2 = mux(_T_1, UInt<2>("h2"), _GEN_1) @[Decoder.scala 15:18 17:20]
+    node _GEN_3 = mux(_T, UInt<1>("h1"), _GEN_2) @[Decoder.scala 15:18 16:20]
+    node dec = _GEN_3 @[Decoder.scala 11:24]
+    io_out <= dec @[Decoder.scala 24:10]
