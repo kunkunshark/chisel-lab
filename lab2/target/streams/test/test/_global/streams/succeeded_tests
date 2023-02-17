@@ -1,6 +1,7 @@
 #Successful Tests
-#Fri Feb 17 12:52:40 CET 2023
-DecoderSpec=1676634760669
+#Fri Feb 17 13:11:40 CET 2023
+AddSubSpec=1676635822612
+DecoderSpec=1676635900196
 MajorityFull=1676634284806
 MajorityPrinter=1676634284806
 MajoritySimple=1676634284805

@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab2\src\main\scala\Decoder.scala:22:29: value Uo is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m  val hello = WireDefault(0.Uo)[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab2\src\main\scala\AddSub.scala:19:22: value bb is not a member of chisel3.Bundle{val a: chisel3.UInt; val b: chisel3.UInt; val selAdd: chisel3.Bool; val y: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m    res := io.a + io.bb[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
