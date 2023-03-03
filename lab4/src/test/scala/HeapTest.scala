@@ -67,18 +67,66 @@ class HeapTest extends AnyFlatSpec with ChiselScalatestTester {
   it should "assert full when 8 numbers have been inserted" in {
     test(new TestHeap) { dut =>
       // write your test code here
+      for (test <- 0 to 7)
+      {
+        dut.io.op.poke(Operation.Insert)
+        dut.io.newValue.poke(test.U)
+        dut.io.valid.poke(1.B)
+
+        dut.clock.step()
+        dut.io.valid.poke(0.B)
+        while (!dut.io.ready.peekBoolean()) dut.clock.step()
+      }
+
+      dut.io.root.expect(7.U)
+      dut.io.full.expect(1.B)
+      dut.io.empty.expect(0.B)
     }
   }
 
   it should "deassert full after one number is removed when it was full" in {
     test(new TestHeap) { dut =>
       // write your test code here
+      for (test <- 0 to 7) {
+        dut.io.op.poke(Operation.Insert)
+        dut.io.newValue.poke(test.U)
+        dut.io.valid.poke(1.B)
+
+        dut.clock.step()
+        dut.io.valid.poke(0.B)
+        while (!dut.io.ready.peekBoolean()) dut.clock.step()
+      }
+
+      dut.io.op.poke(Operation.RemoveRoot)
+      dut.io.valid.poke(1.B)
+
+      dut.clock.step()
+      dut.io.valid.poke(0.B)
+      while (!dut.io.ready.peekBoolean()) dut.clock.step()
+
+      dut.io.root.expect(6.U)
+      dut.io.full.expect(0.B)
+      dut.io.empty.expect(0.B)
     }
   }
 
   it should "not change the sequence if new insertions are issued when it is full" in {
     test(new TestHeap) { dut =>
       // write your test code here
+      for (test <- 0 to 8)
+      {
+        dut.io.op.poke(Operation.Insert)
+        dut.io.newValue.poke(test.U)
+        dut.io.valid.poke(1.B)
+
+        dut.clock.step()
+        dut.io.valid.poke(0.B)
+        while (!dut.io.ready.peekBoolean()) dut.clock.step()
+      }
+
+      dut.io.root.expect(7.U)
+      dut.io.full.expect(1.B)
+      dut.io.empty.expect(0.B)
     }
   }
 
