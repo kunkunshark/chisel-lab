@@ -5,7 +5,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 class SevenSegDecoderSpec extends AnyFlatSpec with ChiselScalatestTester {
 	"SevenSegDecoder " should "pass" in {
 		test(new SevenSegDecoder) { dut =>
-			def print7Segment(x:BigInt,y: Int){
+			def print7Segment(x:BigInt,y: Int) = {
 				var tempStr = ""
 				println(y.toHexString)                         //Print the hexadecimal value
 				println(if ((~x & 0x01) != 0) " _"  else " ")  //Print top "_"

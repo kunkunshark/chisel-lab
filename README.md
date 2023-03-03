@@ -27,17 +27,15 @@ pull requests. Even the fix of a small typo is appreciated.
 ## Lab Overview
 
 The following list gives an overview of all lab sessions and assignments.
-For the Vending Machine related labs (week 5, 6, 8, 9, 10, and 12) please
-read the [Vending Machine Specification](https://learn.inside.dtu.dk/d2l/common/viewFile.d2lfile/Content/L2NvbnRlbnQvZW5mb3JjZWQvNjAyMzgtT0ZGRVJJTkctNjMzODE1L1ZlbmRpbmdNYWNoaW5lLnBkZg/VendingMachine.pdf?ou=60238).
+For the Vending Machine related labs please show them to a TA to get a tick.
 
  * [Lab 1: Hello World in Chisel](lab1)
  * [Lab 2: Combinational Circuits in Chisel](lab2)
  * [Lab 3: Components and Small Sequential Circuits](lab3)
  * [Lab 4: A Simple Tester](lab4)
- * [Lab 6: Seven Segment Decoder](lab6)
- * Lab 7: Paper and pencil on FSM
- * [Lab 8: Test Drive the Seven-Segment Display](lab8)
- * [Lab 9: Multiplexed Seven-Segment Display](lab9)
+ * [Lab 5: Seven Segment Decoder and Test](lab5)
+ * [Lab 6: Multiplexed Seven-Segment Display](lab6)
+ * [Lab 7: Using an External Component: a Serial Port)](lab7)
  * [Lab 10: Testing the Vending Machine](lab10)
  * [Lab 11, 12: The Vending Machine](vending)
 
