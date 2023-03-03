@@ -1,0 +1,90 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Darryl Theodorus C\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Darryl Theodorus C\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 19.0.2)
+[debug]       Load.loadUnit: plugins took 118.1206ms
+[debug]       Load.loadUnit: defsScala took 0.3212ms
+[debug] [Loading] Scanning directory C:\Users\Darryl Theodorus C\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Darryl Theodorus C\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.5244 ms
+[debug]           Load.resolveProject(global-plugins) took 60.1005ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Darryl Theodorus C\.sbt\1.0\plugins, plugins: List(<none>))) took 100.6646ms
+[debug] [Loading] Done in C:\Users\Darryl Theodorus C\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 135.6531ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.274301ms
+[debug]     Load.loadUnit(file:/C:/Users/Darryl%20Theodorus%20C/.sbt/1.0/plugins/, ...) took 270.8668ms
+[debug]   Load.apply: load took 571.929799ms
+[debug]   Load.apply: resolveProjects took 5.938101ms
+[debug]   Load.apply: finalTransforms took 68.8644ms
+[debug]   Load.apply: config.delegates took 8.1383ms
+[debug]   Load.apply: Def.make(settings)... took 374.590899ms
+[debug]   Load.apply: structureIndex took 104.461901ms
+[debug]   Load.apply: mkStreams took 1.3525ms
+[info] loading global plugins from C:\Users\Darryl Theodorus C\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2379.0485ms
+[debug]           Load.loadUnit: plugins took 22.5577ms
+[debug]           Load.loadUnit: defsScala took 0.0052ms
+[debug] [Loading] Scanning directory C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3\project
+[debug]             Load.loadUnit: mkEval took 6.713201ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.875801 ms
+[info] loading settings for project lab3-build from idea.sbt ...
+[debug]               Load.resolveProject(lab3-build) took 2.7178ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id lab3-build, base: C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3\project, plugins: List(<none>))) took 5.088001ms
+[debug] [Loading] Done in C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3\project, returning: (lab3-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 109.896799ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.256601ms
+[debug]         Load.loadUnit(file:/C:/Users/Darryl%20Theodorus%20C/Documents/GitHub/chisel-lab/lab3/project/, ...) took 139.818099ms
+[debug]       Load.apply: load took 141.5945ms
+[debug]       Load.apply: resolveProjects took 0.1608ms
+[debug]       Load.apply: finalTransforms took 11.336101ms
+[debug]       Load.apply: config.delegates took 0.3383ms
+[debug]       Load.apply: Def.make(settings)... took 73.108599ms
+[debug]       Load.apply: structureIndex took 30.3123ms
+[debug]       Load.apply: mkStreams took 0.0019ms
+[info] loading project definition from C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 1221.7525ms
+[debug]     Load.loadUnit: defsScala took 0.003499ms
+[debug] [Loading] Scanning directory C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab3
+[debug]       Load.loadUnit: mkEval took 0.2675ms

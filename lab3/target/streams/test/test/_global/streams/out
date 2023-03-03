@@ -1,28 +1,28 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Mux4Spec, org.scalatest.tools.Framework$$anon$1@1234e3b4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccuSpec, org.scalatest.tools.Framework$$anon$1@1234e3b4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Count6WaveSpec, org.scalatest.tools.Framework$$anon$1@1234e3b4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UseMux2Spec, org.scalatest.tools.Framework$$anon$1@1234e3b4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Count6Spec, org.scalatest.tools.Framework$$anon$1@1234e3b4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Mux2Spec, org.scalatest.tools.Framework$$anon$1@1234e3b4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DelaySpec, org.scalatest.tools.Framework$$anon$1@1234e3b4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Count15Spec, org.scalatest.tools.Framework$$anon$1@1234e3b4, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Count6WaveSpec, org.scalatest.tools.Framework$$anon$1@3249a81f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Count15Spec, org.scalatest.tools.Framework$$anon$1@3249a81f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccuSpec, org.scalatest.tools.Framework$$anon$1@3249a81f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DelaySpec, org.scalatest.tools.Framework$$anon$1@3249a81f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UseMux2Spec, org.scalatest.tools.Framework$$anon$1@3249a81f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Mux2Spec, org.scalatest.tools.Framework$$anon$1@3249a81f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Mux4Spec, org.scalatest.tools.Framework$$anon$1@3249a81f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Count6Spec, org.scalatest.tools.Framework$$anon$1@3249a81f, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mMux2Spec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mMux2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCount6WaveSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDelaySpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDelay[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCountWave6[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCount6Spec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCount6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAccuSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAccu[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mUseMux2Spec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mUseMux2[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAccuSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAccu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCount6Spec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCount6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelaySpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDelay[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCount6WaveSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCountWave6[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mCount15Spec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mCount15[0m[0m
@@ -30,7 +30,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mMux4Spec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mMux4[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 954 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 109 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 8, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m

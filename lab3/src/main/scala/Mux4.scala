@@ -27,7 +27,7 @@ class Mux4 extends Module {
     is( 2.U ) { io.y := io.c }
     is( 3.U ) { io.y := io.d }
   }
-  */
+
 
   io.y := io.a
   when(io.sel === 1.U) {
@@ -39,6 +39,25 @@ class Mux4 extends Module {
   when(io.sel === 3.U) {
     io.y := io.d
   }
+  */
+
+  val a1 = Module(new Mux2())
+  val a2 = Module(new Mux2())
+  val a3 = Module(new Mux2())
+
+  a1.io.sel := io.sel(0)
+  a1.io.a := io.a
+  a1.io.b := io.b
+
+  a2.io.sel := io.sel(0)
+  a2.io.a := io.c
+  a2.io.b := io.d
+
+  a3.io.sel := io.sel(1)
+  a3.io.a := a1.io.y
+  a3.io.b := a2.io.y
+
+  io.y := a3.io.y
 
   // create a Mux4 component out of Mux2 components
   // and connect the input and output ports.
