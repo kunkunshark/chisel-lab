@@ -1,0 +1,15 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab5\src\main\scala\SevenSegDecoder.scala:45:5: overloaded method apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: chisel3.Element,vr: chisel3.Element*)(block: => Any): Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: chisel3.Element)(block: => Any): Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: Iterable[chisel3.Element])(block: => Any): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (String)[0m
+[0m[[0m[31merror[0m] [0m[0m    is("a") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab5\src\main\scala\SevenSegDecoder.scala:48:5: overloaded method apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: chisel3.Element,vr: chisel3.Element*)(block: => Any): Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: chisel3.Element)(block: => Any): Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (v: Iterable[chisel3.Element])(block: => Any): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (String)[0m
+[0m[[0m[31merror[0m] [0m[0m    is("b") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

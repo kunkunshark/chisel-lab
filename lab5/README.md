@@ -56,7 +56,7 @@ and connect the module.
 A simple test is provided, which you can run with
 
 ```
-sbt "testOnly SevenSeqCountSpec"
+sbt "testOnly SevenSegCountSpec"
 ```
 
 and explore the waveform with GTKWave.
