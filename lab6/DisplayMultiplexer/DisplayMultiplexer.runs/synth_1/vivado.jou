@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Mar 23 17:21:03 2023
+# Process ID: 7816
+# Current directory: C:/Users/Darryl Theodorus C/Documents/GitHub/chisel-lab/lab6/DisplayMultiplexer/DisplayMultiplexer.runs/synth_1
+# Command line: vivado.exe -log Display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Display.tcl
+# Log file: C:/Users/Darryl Theodorus C/Documents/GitHub/chisel-lab/lab6/DisplayMultiplexer/DisplayMultiplexer.runs/synth_1/Display.vds
+# Journal file: C:/Users/Darryl Theodorus C/Documents/GitHub/chisel-lab/lab6/DisplayMultiplexer/DisplayMultiplexer.runs/synth_1\vivado.jou
+# Running On: DELL-XPS15, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 16913 MB
+#-----------------------------------------------------------
+source Display.tcl -notrace
