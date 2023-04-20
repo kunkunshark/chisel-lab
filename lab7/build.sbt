@@ -1,4 +1,5 @@
 scalaVersion := "2.12.13"
+libraryDependencies += "edu.berkeley.cs" % "ip-contributions" % "0.5.1"
 
 scalacOptions ++= Seq(
   "-deprecation",
