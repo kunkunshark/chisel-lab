@@ -15,6 +15,11 @@ class VendingTester extends AnyFlatSpec with ChiselScalatestTester {
 
       c.io.price.poke(7.U)
       pay2
+      pay2
+      pay2
+      pay2
+      c.io.buy.poke(true.B)
+      c.clock.step(5)
       // continue here
       // Should we be able to buy a soda now?
     }

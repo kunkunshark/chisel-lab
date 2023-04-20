@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(VendingTester, org.scalatest.tools.Framework$$anon$1@2fbe63a1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVendingTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVending machine test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.IOException: Cannot run program "verilator" (in directory "C:\Users\Darryl Theodorus C\Documents\GitHub\chisel-lab\lab10"): CreateProcess error=2, The system cannot find the file specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at os.proc.proc$lzycompute$1(ProcessOps.scala:128)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at os.proc.proc$1(ProcessOps.scala:122)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at os.proc.spawn(ProcessOps.scala:135)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at os.proc.call(ProcessOps.scala:76)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.simulator.VerilatorSimulator$.version$lzycompute(VerilatorSimulator.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.simulator.VerilatorSimulator$.version(VerilatorSimulator.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.simulator.VerilatorSimulator$.majorVersion(VerilatorSimulator.scala:69)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.simulator.VerilatorSimulator$.createContext(VerilatorSimulator.scala:77)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cause: java.io.IOException: CreateProcess error=2, The system cannot find the file specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ProcessImpl.create(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at os.proc.proc$lzycompute$1(ProcessOps.scala:128)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at os.proc.proc$1(ProcessOps.scala:122)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at os.proc.spawn(ProcessOps.scala:135)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at os.proc.call(ProcessOps.scala:76)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.simulator.VerilatorSimulator$.version$lzycompute(VerilatorSimulator.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 154 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	VendingTester[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
