@@ -24,7 +24,7 @@ board (```VendingSimulation```).
 The vending machine sells one type of canned soft drink.
 The price of a can is set by the owner of the machine using 5 switches.
 Using unsigned binary representation this allows a price range from 0 kr. to 31 kr.
-The price is displayed on two seven-segment displays in decimal representation.
+The price is displayed on two seven-segment displays in hexadecimal representation.
 The other two seven-segment displays show the amount of money entered so far.
 
 
@@ -88,9 +88,10 @@ Based on this list of clock-cycle operations and the list of registers you
 should be able to design a datapath. There is a lot of freedom and many alternatives.
 In our case it should suffice to be able to do one single arithmetic operation
 in a clock cycle, i.e., to use only one single adder/subtractor in the datapath.
-When the datapath is in place, the next step is to design the finite state machine
+When the datapath is in place, the next step is to design the finite state machine (FSM)
 that will control the sequence of operations in the datapath and deliver the
-output signals ```releaseCan``` and ```alarm```.
+output signals ```releaseCan``` and ```alarm```. This combination of a datapath
+with and FSM is called a state machine with datapath (FSMD).
 
 In summary the design phase involves the following:
 
@@ -224,8 +225,7 @@ The cover page of the report must contain the following information:
 
  1. Number and name of the course:  02139: Digital Electronics 2. (Danish: "02139 Digital elektronik 2").
  2. Title of the report:  Vending Machine Project.   (Danish: "Sodavandsautomat projekt").
- 3. Name, student id number, and a passport size photo of each team member.
-
+ 3. Student id numbers.
 
 The rest of the documents contains:
 
@@ -256,9 +256,6 @@ Preface. (Who did what etc.)
 Appendix A: Chisel code for the design
 
 Appendix B: Chisel code for test-benches
-
-Appendix C: ??
-
 
 A report is not a lab notebook, nor a set of problem solutions.
 A report is a stand-alone document that is written after all the work
