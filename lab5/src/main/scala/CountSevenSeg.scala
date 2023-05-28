@@ -10,19 +10,6 @@ class CountSevenSeg extends Module {
 
   // *** your code starts here
 
-  val counter2hz = RegInit(0.U(26.W))
-  val counter4bit = RegInit(0.U(4.W))
-
-  when(counter2hz === 50000000.U) {
-    counter2hz := 0.U
-    counter4bit := counter4bit + 1.U
-  }.otherwise {
-    counter2hz := counter2hz + 1.U
-  }
-
-  val converter = Module(new SevenSegDecoder)
-  converter.io.sw := counter4bit
-  sevSeg := converter.io.seg
 
   // *** your code ends here
 

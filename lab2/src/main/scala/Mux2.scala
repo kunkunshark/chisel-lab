@@ -14,9 +14,7 @@ class Mux2 extends Module {
   val res = Wire(Bool())
 
   // ***** your code starts here *****
-
-  res := (!sel & a) | (sel & b)
-
+  
   // ***** your code ends here *****
 
   io.y := res
